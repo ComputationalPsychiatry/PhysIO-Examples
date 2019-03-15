@@ -7,7 +7,7 @@ physio = tapas_physio_new();
 %% Individual Parameter settings. Modify to your need and remove default settings
 physio.save_dir = {'physio_out'};
 physio.log_files.vendor = 'BIDS';
-physio.log_files.cardiac = {'sub-s082_task-fnclearning_run-01_physio.tsv.gz'};
+physio.log_files.cardiac = {'sub-s999_task-random_run-99_physio.tsv.gz'};
 physio.log_files.relative_start_acquisition = 0;
 physio.log_files.align_scan = 'first';
 physio.scan_timing.sqpar.Nslices = 16;

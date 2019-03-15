@@ -5,6 +5,7 @@
 physio = tapas_physio_new();
 
 %% Individual Parameter settings. Modify to your need and remove default settings
+physio.save_dir = {'physio_out'};
 physio.log_files.vendor = 'GE';
 physio.log_files.cardiac = {'ECGData_epiRT_phys_0921201215_38_08'};
 physio.log_files.respiration = {'RespData_epiRT_phys_0921201215_38_08'};

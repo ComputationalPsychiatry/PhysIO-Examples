@@ -5,6 +5,7 @@
 physio = tapas_physio_new();
 
 %% Individual Parameter settings. Modify to your need and remove default settings
+physio.save_dir = {'physio_out'};
 physio.log_files.vendor = 'Siemens';
 physio.log_files.cardiac = {'siemens_PAV.ecg'};
 physio.log_files.sampling_interval = 0.0025;

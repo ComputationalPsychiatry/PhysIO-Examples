@@ -5,6 +5,7 @@
 physio = tapas_physio_new();
 
 %% Individual Parameter settings. Modify to your need and remove default settings
+physio.save_dir = {'physio_out'};
 physio.log_files.vendor = 'Biopac_Txt';
 physio.log_files.cardiac = {'Biopac_Physio_Data_Export.txt'};
 physio.log_files.respiration = {'Biopac_Physio_Data_Export.txt'};

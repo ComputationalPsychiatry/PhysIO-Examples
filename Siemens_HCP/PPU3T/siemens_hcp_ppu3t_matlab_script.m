@@ -5,6 +5,7 @@
 physio = tapas_physio_new();
 
 %% Individual Parameter settings. Modify to your need and remove default settings
+physio.save_dir = {'physio_out'};
 physio.log_files.vendor = 'Siemens_HCP';
 physio.log_files.cardiac = {'tfMRI_MOTOR_LR_Physio_log.txt'};
 physio.log_files.respiration = {'tfMRI_MOTOR_LR_Physio_log.txt'};

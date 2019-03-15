@@ -5,6 +5,7 @@
 physio = tapas_physio_new();
 
 %% Individual Parameter settings. Modify to your need and remove default settings
+physio.save_dir = {'physio_out'};
 physio.log_files.vendor = 'Philips';
 physio.log_files.cardiac = {'SCANPHYSLOG.log'};
 physio.log_files.respiration = {'SCANPHYSLOG.log'};

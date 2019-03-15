@@ -5,6 +5,7 @@
 physio = tapas_physio_new();
 
 %% Individual Parameter settings. Modify to your need and remove default settings
+physio.save_dir = {'physio_out'};
 physio.log_files.vendor = 'Siemens_Tics';
 physio.log_files.cardiac = {'Physio_20180101_120001_pppppppp-hhhh-yyyy-ssss-ioioioioioio_PULS.log'};
 physio.log_files.respiration = {'Physio_20180101_120001_pppppppp-hhhh-yyyy-ssss-ioioioioioio_RESP.log'};

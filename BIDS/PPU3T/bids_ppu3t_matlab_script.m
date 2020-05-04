@@ -52,8 +52,11 @@ physio.model.movement.censoring_method = 'FD';
 physio.model.other.include = false;
 physio.verbose.level = 2;
 physio.verbose.process_log = cell(0, 1);
-physio.verbose.fig_handles = zeros(0, 1);
+physio.verbose.fig_handles = zeros(1, 0);
 physio.verbose.use_tabs = false;
+physio.verbose.show_figs = true;
+physio.verbose.save_figs = false;
+physio.verbose.close_figs = false;
 physio.ons_secs.c_scaling = 1;
 physio.ons_secs.r_scaling = 1;
 

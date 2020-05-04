@@ -1,12 +1,12 @@
 %-----------------------------------------------------------------------
-% Job saved on 04-Sep-2018 16:05:50 by cfg_util (rev $Rev: 6942 $)
-% spm SPM - SPM12 (7219)
+% Job saved on 04-May-2020 14:34:57 by cfg_util (rev $Rev: 7345 $)
+% spm SPM - SPM12 (7487)
 % cfg_basicio BasicIO - Unknown
 %-----------------------------------------------------------------------
 matlabbatch{1}.spm.tools.physio.save_dir = {'physio_out'};
 matlabbatch{1}.spm.tools.physio.log_files.vendor = 'Philips';
-matlabbatch{1}.spm.tools.physio.log_files.cardiac = {'SCANPHYSLOG.log'};
-matlabbatch{1}.spm.tools.physio.log_files.respiration = {'SCANPHYSLOG.log'};
+matlabbatch{1}.spm.tools.physio.log_files.cardiac = {'C:\Users\kasperla\Documents\Code\PhysIO\examples\Philips\PPU7T\SCANPHYSLOG.log'};
+matlabbatch{1}.spm.tools.physio.log_files.respiration = {'C:\Users\kasperla\Documents\Code\PhysIO\examples\Philips\PPU7T\SCANPHYSLOG.log'};
 matlabbatch{1}.spm.tools.physio.log_files.scan_timing = {''};
 matlabbatch{1}.spm.tools.physio.log_files.sampling_interval = [];
 matlabbatch{1}.spm.tools.physio.log_files.relative_start_acquisition = 0;
@@ -25,6 +25,7 @@ matlabbatch{1}.spm.tools.physio.scan_timing.sync.gradient_log.slice = 1800;
 matlabbatch{1}.spm.tools.physio.scan_timing.sync.gradient_log.vol = [];
 matlabbatch{1}.spm.tools.physio.scan_timing.sync.gradient_log.vol_spacing = [];
 matlabbatch{1}.spm.tools.physio.preproc.cardiac.modality = 'PPU';
+matlabbatch{1}.spm.tools.physio.preproc.cardiac.filter.no = struct([]);
 matlabbatch{1}.spm.tools.physio.preproc.cardiac.initial_cpulse_select.auto_matched.min = 0.4;
 matlabbatch{1}.spm.tools.physio.preproc.cardiac.initial_cpulse_select.auto_matched.file = 'initial_cpulse_kRpeakfile.mat';
 matlabbatch{1}.spm.tools.physio.preproc.cardiac.initial_cpulse_select.auto_matched.max_heart_rate_bpm = 90;

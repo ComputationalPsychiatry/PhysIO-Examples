@@ -33,6 +33,8 @@ physio.preproc.cardiac.posthoc_cpulse_select.method = 'off';
 physio.preproc.cardiac.posthoc_cpulse_select.percentile = 80;
 physio.preproc.cardiac.posthoc_cpulse_select.upper_thresh = 60;
 physio.preproc.cardiac.posthoc_cpulse_select.lower_thresh = 60;
+physio.preproc.respiratory.filter.passband = [0.01 2];
+physio.preproc.respiratory.despike = false;
 physio.model.orthogonalise = 'none';
 physio.model.censor_unreliable_recording_intervals = false;
 physio.model.output_multiple_regressors = 'multiple_regressors.txt';
@@ -42,6 +44,7 @@ physio.model.retroicor.order.c = 3;
 physio.model.retroicor.order.r = 4;
 physio.model.retroicor.order.cr = 1;
 physio.model.rvt.include = false;
+physio.model.rvt.method = 'hilbert';
 physio.model.rvt.delays = 0;
 physio.model.hrv.include = false;
 physio.model.hrv.delays = 0;
@@ -66,6 +69,7 @@ physio.verbose.save_figs = false;
 physio.verbose.close_figs = false;
 physio.ons_secs.c_scaling = 1;
 physio.ons_secs.r_scaling = 1;
+physio.version = 'R2022a-v8.1.0';
 
 %% Run physiological recording preprocessing and noise modeling
 physio = tapas_physio_main_create_regressors(physio);

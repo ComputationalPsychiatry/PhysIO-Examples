@@ -62,7 +62,7 @@ physio.verbose.save_figs = false;
 physio.verbose.close_figs = false;
 physio.ons_secs.c_scaling = 1;
 physio.ons_secs.r_scaling = 1;
-physio.version = 'R2020a-v7.3.2';
+physio.version = 'R2022a-v8.1.0';
 
 %% Run physiological recording preprocessing and noise modeling
 physio = tapas_physio_main_create_regressors(physio);

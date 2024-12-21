@@ -1,0 +1,18 @@
+{
+  "StartTime": 0,
+  "SamplingFrequency": 496,
+  "Columns": [
+    "cardiac",
+    "respiratory"
+  ],
+  "Manufacturer": "Philips",
+  "SoftwareVersions": "BIDS Conversion by TAPAS PhysIO Toolbox (R2024a-v9.0.0)",
+  "cardiac": {
+    "Description": "continuous pulse measurement (processed: normalized amplitudes, padded for scan duration)",
+    "Units": "a.u."
+  },
+  "respiratory": {
+    "Description": "continuous amplitude measurements by respiration belt (processed: normalized amplitudes, padded for scan duration)",
+    "Units": "a.u."
+  }
+}

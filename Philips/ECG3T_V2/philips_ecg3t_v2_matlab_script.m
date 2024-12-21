@@ -17,7 +17,7 @@ physio.scan_timing.sqpar.Ndummies = 5;
 physio.scan_timing.sqpar.Nscans = 305;
 physio.scan_timing.sqpar.onset_slice = 16;
 physio.scan_timing.sync.method = 'nominal';
-physio.preproc.cardiac.modality = 'PPU_Wifi';
+physio.preproc.cardiac.modality = 'PPU_WiFi';
 physio.preproc.cardiac.filter.include = false;
 physio.preproc.cardiac.filter.type = 'butter';
 physio.preproc.cardiac.filter.passband = [0.3 9];
@@ -64,8 +64,9 @@ physio.verbose.close_figs = false;
 physio.ons_secs.c_scaling = 1;
 physio.ons_secs.r_scaling = 1;
 physio.write_bids.bids_step = 2;
+physio.write_bids.bids_dir = {'physio_out'};
 physio.write_bids.bids_prefix = 'sub-control01_task-YOURTASK_run-1';
-physio.version = 'R2022a-v8.2.0-beta';
+physio.version = 'R2024a-v9.0.0';
 
 %% Run physiological recording preprocessing and noise modeling
 physio = tapas_physio_main_create_regressors(physio);

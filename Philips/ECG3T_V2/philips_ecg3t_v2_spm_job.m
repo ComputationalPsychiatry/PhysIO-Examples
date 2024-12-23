@@ -1,5 +1,5 @@
 matlabbatch{1}.spm.tools.physio.save_dir = {'physio_out'};
-matlabbatch{1}.spm.tools.physio.write_bids.bids_step = 2;
+matlabbatch{1}.spm.tools.physio.write_bids.bids_step = 3;
 matlabbatch{1}.spm.tools.physio.write_bids.bids_dir = {'physio_out'};
 matlabbatch{1}.spm.tools.physio.write_bids.bids_prefix = 'sub-control01_task-YOURTASK_run-1';
 matlabbatch{1}.spm.tools.physio.log_files.vendor = 'Philips';

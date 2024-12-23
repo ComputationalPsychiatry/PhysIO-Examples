@@ -69,7 +69,9 @@ physio.verbose.save_figs = false;
 physio.verbose.close_figs = false;
 physio.ons_secs.c_scaling = 1;
 physio.ons_secs.r_scaling = 1;
-physio.version = 'R2022b-v8.2.0';
+physio.write_bids.bids_step = 4;
+physio.write_bids.bids_prefix = 'sub-control01_task-YOURTASK_run-1';
+physio.version = 'R2024a-v9.0.0';
 
 %% Run physiological recording preprocessing and noise modeling
 physio = tapas_physio_main_create_regressors(physio);

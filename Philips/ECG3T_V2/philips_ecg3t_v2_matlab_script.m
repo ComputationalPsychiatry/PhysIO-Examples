@@ -66,7 +66,7 @@ physio.ons_secs.r_scaling = 1;
 physio.write_bids.bids_step = 3;
 physio.write_bids.bids_dir = {'physio_out'};
 physio.write_bids.bids_prefix = 'sub-control01_task-YOURTASK_run-1';
-physio.version = 'R2024a-v9.0.0';
+physio.version = 'R2024a-v9.0.1';
 
 %% Run physiological recording preprocessing and noise modeling
 physio = tapas_physio_main_create_regressors(physio);

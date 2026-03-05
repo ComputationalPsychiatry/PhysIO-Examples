@@ -64,7 +64,7 @@ physio.ons_secs.c_scaling = 1;
 physio.ons_secs.r_scaling = 1;
 physio.write_bids.bids_step = 4;
 physio.write_bids.bids_prefix = 'sub-s999_task-random_run-99';
-physio.version = 'R2024a-v9.0.1';
+physio.version = 'R2025a-v9.1.0';
 
 %% Run physiological recording preprocessing and noise modeling
 physio = tapas_physio_main_create_regressors(physio);

@@ -1,4 +1,4 @@
-PhysIO Examples [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15579087.svg)](https://doi.org/10.5281/zenodo.15579087) | Code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15578837.svg)](https://doi.org/10.5281/zenodo.15578837) | Paper [![DOI](https://zenodo.org/badge/DOI/10.1016/j.jneumeth.2016.10.019.svg)](https://doi.org/10.1016/j.jneumeth.2016.10.019)
+[Code](https://github.com/ComputationalPsychiatry/PhysIO) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15578837.svg)](https://doi.org/10.5281/zenodo.15578837) | [Paper](http://www.sciencedirect.com/science/article/pii/S016502701630259X) [![DOI](https://zenodo.org/badge/DOI/10.1016/j.jneumeth.2016.10.019.svg)](https://doi.org/10.1016/j.jneumeth.2016.10.019) | [Examples](https://github.com/ComputationalPsychiatry/PhysIO-Examples) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15579087.svg)](https://doi.org/10.5281/zenodo.15579087)
 
 Example Repository for TAPAS PhysIO Toolbox
 ===========================================
@@ -8,6 +8,8 @@ All example data for the [TAPAS PhysIO Toolbox](https://github.com/Computational
 ```
 git clone https://github.com/ComputationalPsychiatry/PhysIO-Examples.git
 ```
+
+Alternatively, you can use `tapas_physio_download_example_data` in the [PhysIO Code Repository](https://github.com/ComputationalPsychiatry/PhysIO) to download the examples within Matlab into a subfolder `examples` of PhysIO.
 
 The general folder structure is
 
